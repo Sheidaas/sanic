@@ -1,0 +1,6 @@
+sanic
+configparser
+sqlalchemy
+selenium
+requests
+jwt
