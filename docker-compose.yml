@@ -1,19 +1,14 @@
+version: 3
 services:
   travbot:
-    image: travbot
-    ports:
-      - "8888:8888"
-    networks:
-      - bridge
+    restart: always
+    build: ./server/
+    expose:
+      - "8888"
   nginx:
-    image: nginx-travbot
+    restart: always
+    build: ./nginx/
     ports:
       - "80:80"
-    volumes:
-      - ./server.conf:/etc/nginx/conf.d/server.conf
     links:
-      - "travbot: travbot"
-    networks:
-      - bridge
-    depends_on:
-      - travbot
+      - travbot:travbot
