@@ -1,5 +1,19 @@
 services:
-  web:
-    image:
+  travbot:
+    image: travbot
     ports:
-      - "80:8888"
+      - "8888:8888"
+    networks:
+      - bridge
+  nginx:
+    image: nginx-travbot
+    ports:
+      - "80:80"
+    volumes:
+      - ./server.conf:/etc/nginx/conf.d/server.conf
+    links:
+      - "travbot: travbot"
+    networks:
+      - bridge
+    depends_on:
+      - travbot
