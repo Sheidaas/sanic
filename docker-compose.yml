@@ -1,14 +1,15 @@
-version: 3
-services:
-  travbot:
+service:
+  app:
     restart: always
     build: ./server/
     expose:
-      - "8888"
+      - "8000"
+
   nginx:
     restart: always
     build: ./nginx/
     ports:
       - "80:80"
     links:
-      - travbot:travbot
+      - app:app
+
