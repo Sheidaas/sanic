@@ -5,3 +5,4 @@ selenium
 requests
 pyjwt
 psycopg2-binary
+undetected_chromedriver

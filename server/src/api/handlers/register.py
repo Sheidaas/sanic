@@ -1,10 +1,12 @@
 import datetime
 import hashlib
+from ..forms.user_form import UserForm
 from sanic import Sanic
 from sanic.views import HTTPMethodView
 from sanic.request import Request
 from sanic.response import json, HTTPResponse
 from ...database.models.users import User
+from ...utils import ERRORS
 
 
 class Register(HTTPMethodView):
@@ -17,33 +19,23 @@ class Register(HTTPMethodView):
 
     async def post(self, request: Request):
         if not request.json:
-            return HTTPResponse(status=400)
-
-        new_user = self.can_register(request.json)
-        if not new_user:
-            return HTTPResponse(status=400)
+            return HTTPResponse(body=[
+                ERRORS['AUTH-000']
+            ], status=400)
+        user_form = UserForm()
+        if not user_form.is_valid(request.json):
+            return HTTPResponse(body=user_form.errors, status=401)
+        new_user = self.register(request.json)
         return json({'token': new_user.get_token()})
 
-    def can_register(self, credentials: dict):
-        username = credentials.get('username')
-        password = credentials.get('password')
-        email = credentials.get('email')
-
-        if not username or not password or not email:
-            return False
-
-        if self.database.user_manager.get_by_username(username):
-            return False
-
+    def register(self, credentials: dict):
         new_user = User()
-        new_user.name = username
-        new_user.password = hashlib.md5(password.encode()).hexdigest()
-        new_user.email = email
+        new_user.name = credentials.get('username')
+        new_user.password = hashlib.md5(credentials.get('password').encode()).hexdigest()
+        new_user.email = credentials.get('email')
         new_user.is_admin = False
         new_user.premium_end_date = datetime.datetime.now()
-
         self.database.user_manager.insert(new_user)
-
         return new_user
 
 

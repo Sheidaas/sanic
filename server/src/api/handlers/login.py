@@ -1,5 +1,6 @@
 import jwt
 import hashlib
+from ...utils import ERRORS
 from sanic import Sanic
 from sanic.views import HTTPMethodView
 from sanic.request import Request
@@ -16,18 +17,27 @@ class Login(HTTPMethodView):
 
     async def get(self, request: Request):
         if not request.token:
-            return HTTPResponse(status=400)
+            return HTTPResponse(body=[
+                ERRORS['AUTH-000']
+            ], status=400)
         is_valid = self.validate_token(request.token)
-        token_to_response = request.token if is_valid else ''
-        return json({'token': token_to_response})
+        if not is_valid:
+            return HTTPResponse(body=[
+                ERRORS['AUTH-001']
+                ], status=401)
+        return json({'token': request.token})
 
     async def post(self, request: Request):
         if not request.json:
-            return HTTPResponse(status=400)
+            return HTTPResponse(body=[
+                ERRORS['AUTH-000']
+                ], status=400)
 
         is_valid = self.validate_credentials(request.json)
         if not is_valid:
-            return HTTPResponse(status=400)
+            return HTTPResponse(body=[
+                ERRORS['AUTH-001']
+                ], status=401)
         return json({'token': is_valid})
 
     def validate_token(self, token: str):
