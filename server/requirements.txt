@@ -3,4 +3,5 @@ configparser
 sqlalchemy
 selenium
 requests
-jwt
+pyjwt
+psycopg2-binary
