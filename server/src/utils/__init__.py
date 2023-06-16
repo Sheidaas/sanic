@@ -1,32 +1,25 @@
 import os
+import datetime
 from configparser import ConfigParser
+from sanic import Sanic
 
 
-ERRORS = {
-    'AUTH-000': {
-        'error': 'auth-000',
-        'message': 'Credentials are empty'
-    },
-    'AUTH-001': {
-        'error': 'auth-001',
-        'message': 'Invalid credentials'
-    },
-    'REGISTER-000': {
-        'error': 'register-000',
-        'message': 'Empty username'
-    },
-    'REGISTER-001': {
-        'error': 'register-001',
-        'message': 'Empty password'
-    },
-    'REGISTER-002': {
-        'error': 'register-002',
-        'message': 'Empty email'
-    },
-    'REGISTER-003': {
-        'error': 'register-003',
-        'message': 'Username is already taken'
-    }
+URLS = {
+    'LOGIN': '/login.php',
+    'RESOURCES': '/dorf1.php',
+    'INSIDE_VILLAGE': '/dorf2.php',
+    'HERO': '/hero',
+    'ADVENTURES': '/hero/adventures',
+    'PROFILE': '/profile',
+    'BUILD': '/build.php?id='
+}
+
+
+FIELD_NAMES = {
+    'TOKEN': 'token',
+    'USERNAME': 'username',
+    'PASSWORD': 'password',
+    'EMAIL': 'email',
 }
 
 
@@ -36,4 +29,54 @@ def read_config_file(root_path: str):
     return config_parser
 
 
+def get_database():
+    app = Sanic.get_app()
+    return app.ctx.get('DATABASE')
 
+
+def get_config():
+    app = Sanic.get_app()
+    return app.ctx.get('CONFIG')
+
+
+def suppose_time_when_enough_resources(required_resources, current_resources, production, magazine_size, granary_size):
+    if required_resources['free_crop'] > current_resources['free_crop']:
+        return False
+    if required_resources['Wood'] > magazine_size or \
+            required_resources['Clay'] > magazine_size or \
+            required_resources['Iron'] > magazine_size or \
+            required_resources['Crop'] > granary_size:
+        return False
+
+    needed_wood = required_resources['Wood'] - current_resources['Wood']
+    needed_clay = required_resources['Clay'] - current_resources['Clay']
+    needed_iron = required_resources['Iron'] - current_resources['Iron']
+    needed_crop = required_resources['Crop'] - current_resources['Crop']
+
+    return max([
+        needed_wood / (production['Wood'] / 3600),
+        needed_clay / (production['Clay'] / 3600),
+        needed_iron / (production['Iron'] / 3600),
+        needed_crop / (production['Crop'] / 3600),
+    ])
+
+
+def shift_resources(session):
+    current_time = datetime.datetime.now()
+    shift_time = current_time - session.last_refresh_time
+    s_shift_time = shift_time.seconds
+    if not s_shift_time or 5 > s_shift_time:
+        return False
+
+    for village in session.villages:
+        for key, value in village.resources.items():
+            new_amount = (value['production'] / 3600) * s_shift_time
+            if key == 'Crop':
+                value['amount'] = village.granary_size if value['amount'] + new_amount >= village.granary_size else \
+                    value['amount'] + new_amount
+            else:
+                value['amount'] = village.magazine_size if value['amount'] + new_amount >= village.magazine_size else \
+                    value['amount'] + new_amount
+
+    session.last_refresh_time = current_time
+    return True

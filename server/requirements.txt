@@ -6,3 +6,7 @@ requests
 pyjwt
 psycopg2-binary
 undetected_chromedriver
+pytest
+pytest-asyncio
+httpx
+sanic-testing

@@ -1,17 +1,4 @@
 
-
-def login():
-    pass
-
-def login_by_token():
-    pass
-
-def register():
-    pass
-
-def get_user():
-    pass
-
 def new_game_session():
     pass
 

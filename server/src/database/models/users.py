@@ -3,7 +3,7 @@ import jwt
 
 from . import Base
 
-from sanic import Sanic
+from ...utils import get_config
 
 from sqlalchemy import String
 from sqlalchemy import DateTime
@@ -28,13 +28,13 @@ class User(Base):
         return True
 
     def get_token(self):
-        app = Sanic.get_app()
-        secret_key = app.ctx['CONFIG'].get('KEYS', 'SECRET_KEY')
-        return jwt.encode({'username': self.name, 'is_admin': self.is_admin}, secret_key)
+        secret_key = get_config().get('KEYS', 'SECRET_KEY')
+        return jwt.encode({'username': self.name, 'is_admin': self.is_admin, 'due': 0}, secret_key)
 
-    def get_parsed_data(self):
+    def to_dict(self):
         return {
             'username': self.name,
+            'email': self.email,
             'premium_end_date': str(self.premium_end_date),
             'is_admin': self.is_admin
         }

@@ -1,5 +1,6 @@
 from . import Base
-from.adventure import Adventure
+from typing import List
+from .adventure import Adventure
 
 from sqlalchemy import Integer
 from sqlalchemy import ForeignKey
@@ -28,4 +29,4 @@ class Hero(Base):
     is_hid: Mapped[Boolean] = mapped_column(Boolean())
     is_dead: Mapped[Boolean] = mapped_column(Boolean())
     adventures: Mapped[List[Adventure]] = relationship()
-    game_session_id: Mapped[ForeignKey] = mapped_column(ForeignKey('game_session.id'))
+    game_session_id: Mapped[ForeignKey] = mapped_column(ForeignKey('game_session.uuid'))

@@ -1,5 +1,5 @@
-from Modules.game_manager.navigator import Navigator
-from .scrappers.village_scrapper import VillageScrapper
+from .navigator import Navigator
+
 
 from selenium import webdriver
 import undetected_chromedriver as uc
@@ -31,17 +31,3 @@ class SeleniumSession:
         self.driver.implicitly_wait(5)
 
         self.navigator = Navigator(self.driver, self.game_session)
-
-    #def __get_info__(self):
-    #    self.___get_profile_info___()
-    #    self.___scan_hero___()
-    #    self.___scan_current_village___()
-
-    #def ___get_profile_info___(self):
-    #    self.tribe, self.alliance = scrap_profile(self.navigator)
-
-    def ___scan_current_village___(self):
-        village_scrapper = VillageScrapper(self.game_session.server.url, self.driver, self.current_village_name,
-                                           self.game_session.tribe, self.navigator)
-        scrapped_village = village_scrapper.scrap_village(self.client)
-        self.game_session.villages.append(scrapped_village)

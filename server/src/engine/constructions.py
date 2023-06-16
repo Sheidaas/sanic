@@ -1,7 +1,7 @@
 import datetime
+from sanic import Sanic
 from uuid import uuid4
-
-from Modules.session.session_shifter import suppose_time_when_enough_resources
+from ..utils import suppose_time_when_enough_resources
 
 
 FIELD_TYPES = {
@@ -74,7 +74,7 @@ class ConstructionsManager:
         self.constructions.remove(construction_to_remove)
 
     def refresh_construction_data(self, construction: Construction):
-        from main import database
+        database = Sanic.get_app().ctx.get('DATABASE')
         building = database.building_db.select_building_by_id(construction.building_id)
         if not building:
             return False

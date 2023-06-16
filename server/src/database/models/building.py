@@ -12,6 +12,3 @@ class Building(Base):
 
     id: Mapped[Integer] = mapped_column(Integer(), primary_key=True)
     name: Mapped[String] = mapped_column(String())
-    data = relationship('BuildingData')
-    additional_data = relationship('BuildingAdditionalData')
-    times = relationship('BuildingDataTimes')
