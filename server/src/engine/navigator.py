@@ -6,7 +6,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 
 from ..utils.exceptions import InternalSeleniumException
-from ..utils import URLS
+from ..utils.dictionaries import TRAVIAN_URLS
 from .custom_conditions import ExpectedUrl
 
 
@@ -18,13 +18,13 @@ class Navigator:
         self.password = game_session.password
         self.server = game_session.server.url
         self.paths = {
-            URLS['LOGIN']: {
-                URLS['RESOURCES']: self.login_to_game,
+            TRAVIAN_URLS['LOGIN']: {
+                TRAVIAN_URLS['RESOURCES']: self.login_to_game,
             },
-            URLS['RESOURCES']: {
-                URLS['PROFILE']: self.go_to_profile,
-                URLS['HERO']: self.go_to_hero_profile,
-                URLS['INSIDE_VILLAGE']: self.go_to_village_center,
+            TRAVIAN_URLS['RESOURCES']: {
+                TRAVIAN_URLS['PROFILE']: self.go_to_profile,
+                TRAVIAN_URLS['HERO']: self.go_to_hero_profile,
+                TRAVIAN_URLS['INSIDE_VILLAGE']: self.go_to_village_center,
             }
         }
 
@@ -39,7 +39,7 @@ class Navigator:
     def login_to_game(self):
         action_chain = ActionChains(self.driver)
         try:
-            self.driver.get(self.server + URLS['LOGIN'])
+            self.driver.get(self.server + TRAVIAN_URLS['LOGIN'])
         except (InvalidArgumentException, WebDriverException):
             raise InternalSeleniumException('invalid server url or server is not reachable')
 
@@ -62,7 +62,7 @@ class Navigator:
         action_chain.perform()
 
         try:
-            WebDriverWait(self.driver, 5).until(ExpectedUrl(self.server + URLS['RESOURCES']))
+            WebDriverWait(self.driver, 5).until(ExpectedUrl(self.server + TRAVIAN_URLS['RESOURCES']))
         except Exception:
             raise InternalSeleniumException('invalid credentials')
 
@@ -70,16 +70,16 @@ class Navigator:
         if self.server not in self.current_url:
             raise InternalSeleniumException('not even in travian')
 
-        if self.current_url == self.server + URLS['PROFILE']:
+        if self.current_url == self.server + TRAVIAN_URLS['PROFILE']:
             return
 
         try:
-            self.driver.get(self.server + URLS['PROFILE'])
+            self.driver.get(self.server + TRAVIAN_URLS['PROFILE'])
         except (InvalidArgumentException, WebDriverException):
             raise InternalSeleniumException('invalid server url or server is not reachable')
 
         try:
-            WebDriverWait(self.driver, 5).until(ExpectedUrl(self.server + URLS['PROFILE']))
+            WebDriverWait(self.driver, 5).until(ExpectedUrl(self.server + TRAVIAN_URLS['PROFILE']))
         except Exception:
             raise InternalSeleniumException('after click at profile button session isn\'t in profile url')
 
@@ -91,7 +91,7 @@ class Navigator:
         if self.server not in self.current_url:
             raise InternalSeleniumException('not even in travian')
 
-        if self.current_url == self.server + URLS['HERO']:
+        if self.current_url == self.server + TRAVIAN_URLS['HERO']:
             return
 
         try:
@@ -108,7 +108,7 @@ class Navigator:
         if self.server not in self.current_url:
             raise InternalSeleniumException('not even in travian')
 
-        if self.current_url == self.server + URLS['RESOURCES']:
+        if self.current_url == self.server + TRAVIAN_URLS['RESOURCES']:
             return
 
         try:
@@ -125,7 +125,7 @@ class Navigator:
         if self.server not in self.current_url:
             raise InternalSeleniumException('not even in travian')
 
-        if self.current_url == self.server + URLS['INSIDE_VILLAGE']:
+        if self.current_url == self.server + TRAVIAN_URLS['INSIDE_VILLAGE']:
             return
 
         try:
@@ -150,7 +150,7 @@ class Navigator:
             raise InternalSeleniumException(f'cant find solar {solar_id}')
 
         try:
-            if self.current_url == self.server + URLS['INSIDE_VILLAGE']:
+            if self.current_url == self.server + TRAVIAN_URLS['INSIDE_VILLAGE']:
                 solar_button = self.driver.find_element(By.ID, 'villageContent').\
                     find_element(By.CLASS_NAME, 'a'+str(solar_id))
             else:
@@ -182,7 +182,7 @@ class Navigator:
         action_chains.pause(2)
         action_chains.perform()
 
-        if self.current_url != self.server + URLS['BUILD'] + str(field_id) + '&category=' + str(category_index):
+        if self.current_url != self.server + TRAVIAN_URLS['BUILD'] + str(field_id) + '&category=' + str(category_index):
             raise InternalSeleniumException('invalid category when building new building')
 
     def build_new_building(self, field_id: int, new_building_id: int, category_index: int):

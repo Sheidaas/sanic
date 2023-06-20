@@ -1,5 +1,3 @@
-from ..utils import get_config
-
 from sqlalchemy import Engine, create_engine
 from sqlalchemy.orm import Session
 

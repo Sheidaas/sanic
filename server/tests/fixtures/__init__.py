@@ -19,3 +19,7 @@ def app():
 
     app.prepare(host=host, port=port, debug=debug)
     return app
+
+@pytest.fixture
+def root_path():
+    return os.path.join(os.getcwd(), 'tests')

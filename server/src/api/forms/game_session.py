@@ -1,6 +1,6 @@
 from uuid import UUID
 from . import Form
-from ...utils.exceptions import ERROR_CODES
+from ...utils.dictionaries import ERROR_CODES
 from ...utils import get_database
 
 

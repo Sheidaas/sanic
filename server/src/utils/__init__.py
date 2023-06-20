@@ -1,26 +1,9 @@
 import os
 import datetime
-from configparser import ConfigParser
 from sanic import Sanic
-
-
-URLS = {
-    'LOGIN': '/login.php',
-    'RESOURCES': '/dorf1.php',
-    'INSIDE_VILLAGE': '/dorf2.php',
-    'HERO': '/hero',
-    'ADVENTURES': '/hero/adventures',
-    'PROFILE': '/profile',
-    'BUILD': '/build.php?id='
-}
-
-
-FIELD_NAMES = {
-    'TOKEN': 'token',
-    'USERNAME': 'username',
-    'PASSWORD': 'password',
-    'EMAIL': 'email',
-}
+from jwt import decode
+from jwt import InvalidTokenError
+from configparser import ConfigParser
 
 
 def read_config_file(root_path: str):
@@ -34,7 +17,7 @@ def get_database():
     return app.ctx.get('DATABASE')
 
 
-def get_config():
+def get_config() -> ConfigParser:
     app = Sanic.get_app()
     return app.ctx.get('CONFIG')
 
@@ -80,3 +63,14 @@ def shift_resources(session):
 
     session.last_refresh_time = current_time
     return True
+
+
+def decode_jwt(token: str) -> dict | None:
+    config = get_config()
+    secret_key = config.get('JWT', 'SECRET_KEY')
+    algorithms = config.get('JWT', 'ALGORITHMS').split(',')
+    
+    try:
+        return decode(token, secret_key, algorithms=algorithms)
+    except InvalidTokenError:
+        return None

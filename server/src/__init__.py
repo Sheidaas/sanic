@@ -4,6 +4,7 @@ from .api.login import Login
 from .api.user import User
 from .utils import read_config_file
 from .database import Database
+from .utils.dictionaries import URLS
 
 
 def get_app(root_path: str):
@@ -16,6 +17,6 @@ def get_app(root_path: str):
             'CONFIG': config
             })
 
-    app.add_route(Login.as_view(), '/login/')
-    app.add_route(User.as_view(), '/user/')
+    app.add_route(Login.as_view(), URLS['LOGIN'])
+    app.add_route(User.as_view(), URLS['USER'])
     return app

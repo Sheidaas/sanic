@@ -7,7 +7,7 @@ from .decorators import is_authenticated
 
 class User(HTTPMethodView):
 
-    @is_authenticated
+    @is_authenticated()
     async def get(self, request: Request):
         return JSONResponse(body=request.ctx['USER'].to_dict())
 
@@ -25,10 +25,10 @@ class User(HTTPMethodView):
             'token': user_form.cleaned_instance.get_token()
         }, status=201)
 
-    @is_authenticated
+    @is_authenticated()
     async def put(self, request: Request):
         pass
 
-    @is_authenticated
+    @is_authenticated()
     async def delete(self, request: Request):
         pass

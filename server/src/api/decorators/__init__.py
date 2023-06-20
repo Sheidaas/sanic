@@ -4,13 +4,13 @@ from sanic.request import Request
 from sanic.response import JSONResponse
 from ..forms.user_form import UserTokenLoginForm
 from ..forms.game_session import GameSessionForm
-from ...utils.exceptions import ERROR_CODES
+from ...utils.dictionaries import ERROR_CODES
 
 
-def is_authenticated(func: Callable):
-    def decorator():
+def is_authenticated():
+    def decorator(func: Callable):
         @wraps(func)
-        async def decorated_function(request: Request, *args, **kwargs):
+        async def decorated_function(view, request, *args, **kwargs):
             user_form = UserTokenLoginForm({'token': request.token})
             is_valid = await user_form.is_valid()
             if not is_valid:
@@ -19,17 +19,19 @@ def is_authenticated(func: Callable):
                 }
                 return JSONResponse(body=body, status=401)
 
-            request.ctx['USER'] = user_form.cleaned_instance
+            request.ctx = {
+                'USER': user_form.cleaned_instance
+            }
 
-            return func(request, *args, **kwargs)
+            return await func(view, request, *args, **kwargs)
         return decorated_function
     return decorator
 
 
-def is_game_session_owner(func: Callable):
-    def decorator():
+def is_game_session_owner():
+    def decorator(func: Callable):
         @wraps(func)
-        async def decorated_function(request: Request, *args, **kwargs):
+        async def decorated_function(view, request: Request, *args, **kwargs):
             uuid = kwargs.get('game_session_uuid')
             game_session_form = GameSessionForm({'uuid': uuid})
             is_valid = await game_session_form.is_valid()

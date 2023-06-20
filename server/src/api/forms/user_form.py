@@ -1,8 +1,7 @@
 from . import Form
 from ...database.models.users import User
-from ...utils import get_database, get_config
-from ...utils.exceptions import ERROR_CODES
-from jwt import decode, InvalidTokenError
+from ...utils import get_database, decode_jwt
+from ...utils.dictionaries import ERROR_CODES, FIELD_NAMES
 from hashlib import md5
 from datetime import datetime
 
@@ -10,23 +9,21 @@ from datetime import datetime
 class UserTokenLoginForm(Form):
 
     async def is_valid(self):
-        token = self.raw_data.get('token')
+        token = self.raw_data.get(FIELD_NAMES['TOKEN'])
         if not token:
             self.errors.append(ERROR_CODES['AUTH-001'])
             return False
 
-        secret_key = get_config().get('KEYS', 'SECRET_KEY')
-        try:
-            user_data: dict = decode(token, secret_key, algorithms=['HS256'])
-        except InvalidTokenError:
+        user_data = decode_jwt(token)
+        if not user_data:
             self.errors.append(ERROR_CODES['AUTH-002'])
             return False
 
-        username = user_data.get('username')
+        username = user_data.get(FIELD_NAMES['USERNAME'])
         if not username:
             self.errors.append(ERROR_CODES['AUTH-002'])
 
-        due_to = user_data.get('due_to')
+        due_to = user_data.get(FIELD_NAMES['TOKEN_EXPIRATION_DATE'])
         if not due_to:
             self.errors.append(ERROR_CODES['AUTH-002'])
         else:
@@ -52,8 +49,8 @@ class UserTokenLoginForm(Form):
 class UserCredentialLoginForm(Form):
 
     async def is_valid(self):
-        username = self.raw_data.get('username')
-        password = self.raw_data.get('password')
+        username = self.raw_data.get(FIELD_NAMES['USERNAME'])
+        password = self.raw_data.get(FIELD_NAMES['PASSWORD'])
 
         if not username or not password:
             self.errors.append(ERROR_CODES['AUTH-001'])
@@ -74,9 +71,9 @@ class UserCredentialLoginForm(Form):
 class UserRegisterForm(Form):
 
     async def is_valid(self):
-        username: str = self.raw_data.get('username')
-        password: str = self.raw_data.get('password')
-        email: str = self.raw_data.get('email')
+        username: str = self.raw_data.get(FIELD_NAMES['USERNAME'])
+        password: str = self.raw_data.get(FIELD_NAMES['PASSWORD'])
+        email: str = self.raw_data.get(FIELD_NAMES['EMAIL'])
 
         if not username:
             self.errors.append(ERROR_CODES['REGISTER-000'])
@@ -90,7 +87,7 @@ class UserRegisterForm(Form):
         if not email:
             self.errors.append(ERROR_CODES['REGISTER-002'])
         else:
-            # TODO sprawdzać tutaj stringa pod względem bycia emailem lub nie
+            # TODO: sprawdzać tutaj stringa pod względem bycia emailem lub nie
             # Aktualnie sprawdzane jest jedynie czy email nie jest pusty - docelowo napis ma być sprawdzony regexem
             pass
 
