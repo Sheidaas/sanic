@@ -3,6 +3,7 @@ from .decorators import is_authenticated
 from sanic.views import HTTPMethodView
 from sanic.request import Request
 from sanic.response import JSONResponse
+from ..utils.auth import encode_jwt
 
 
 class Login(HTTPMethodView):
@@ -20,6 +21,12 @@ class Login(HTTPMethodView):
                 'errors': user_form.errors
             }
             return JSONResponse(body=body, status=400)
+        token = encode_jwt(user_form.cleaned_instance.to_dict())
+        if isinstance(token, dict):
+            body = {
+                'errors': token
+            }
+            return JSONResponse(body=body, status=500)
         return JSONResponse(body={
-            'token': user_form.cleaned_instance.get_token()
+            'token': token
         })

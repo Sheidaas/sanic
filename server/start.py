@@ -15,7 +15,7 @@ if __name__ == '__main__':
 
     host = config.get('SERVER', 'HOST')
     port = int(config.get('SERVER', 'PORT'))
-    debug = True if config.get('SERVER', 'DEBUG') == 'True' else False
+    debug = bool(config.get('SERVER', 'DEBUG'))
 
     app.prepare(host=host, port=port, debug=debug)
     Sanic.serve(primary=app, app_loader=loader)

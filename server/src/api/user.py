@@ -3,6 +3,7 @@ from sanic.request import Request
 from sanic.response import JSONResponse
 from .forms.user_form import UserRegisterForm
 from .decorators import is_authenticated
+from ..utils.auth import encode_jwt
 
 
 class User(HTTPMethodView):
@@ -21,8 +22,15 @@ class User(HTTPMethodView):
             }
             return JSONResponse(body=body, status=400)
         await user_form.save()
+        user_data = encode_jwt(user_form.cleaned_instance.to_dict())
+        if isinstance(user_data, dict):
+            body = {
+                'errors': user_data
+            }
+            return JSONResponse(body=body, status=500)
+
         return JSONResponse(body={
-            'token': user_form.cleaned_instance.get_token()
+            'token': user_data
         }, status=201)
 
     @is_authenticated()

@@ -2,7 +2,6 @@ from . import Base
 from sqlalchemy import String
 from sqlalchemy import Integer
 from sqlalchemy.orm import Mapped
-from sqlalchemy.orm import relationship
 from sqlalchemy.orm import mapped_column
 
 

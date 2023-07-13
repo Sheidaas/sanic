@@ -1,0 +1,787 @@
+[2023-06-25 13:33:12 +0200] [21624] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request IP from: mockserver
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request JSON {'username': 'Sheida', 'password': 'admin', 'email': 'maciejwrzeszcz1@wp.pl'}
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request header <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-25 13:33:12 +0200] [21624] [INFO] --------------------------------
+[2023-06-25 13:33:12 +0200] [21624] [INFO] URL: http://mockserver:1234/login
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request IP from: mockserver
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request JSON None
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request header <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNoZWlkYSIsImVtYWlsIjoibWFjaWVqd3J6ZXN6Y3oxQHdwLnBsIiwicHJlbWl1bV9leHBpcmF0aW9uX2RhdGUiOiIyMDIzLTA2LTI1IDEzOjMzOjEyLjA0ODEyNiIsImlzX2FkbWluIjpmYWxzZSwidG9rZW5fZXhwaXJhdGlvbl9kYXRlIjoiMjAyMy0wNy0wMiJ9.AfO6JXwscYBO52ldMDh0kR6tLLGnfJpJBgXNwEe3VnY')>
+[2023-06-25 13:33:12 +0200] [21624] [INFO] --------------------------------
+[2023-06-25 13:33:12 +0200] [21624] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request IP from: mockserver
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request JSON {'username': 'Sheida', 'password': 'admin', 'email': 'maciejwrzeszcz1@wp.pl'}
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request header <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-25 13:33:12 +0200] [21624] [INFO] --------------------------------
+[2023-06-25 13:33:12 +0200] [21624] [INFO] URL: http://mockserver:1234/login
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request IP from: mockserver
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request JSON None
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request header <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer ')>
+[2023-06-25 13:33:12 +0200] [21624] [INFO] --------------------------------
+[2023-06-25 13:33:12 +0200] [21624] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request IP from: mockserver
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request JSON {'username': 'Sheida', 'password': 'admin', 'email': 'maciejwrzeszcz1@wp.pl'}
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request header <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-25 13:33:12 +0200] [21624] [INFO] --------------------------------
+[2023-06-25 13:33:12 +0200] [21624] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request IP from: mockserver
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request JSON {'username': 'Sheida', 'password': 'admin', 'email': 'maciejwrzeszcz1@wp.pl'}
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request header <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-25 13:33:12 +0200] [21624] [INFO] --------------------------------
+[2023-06-25 13:33:12 +0200] [21624] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request IP from: mockserver
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request JSON {'username': 'Sheida', 'password': 'admin', 'email': 'maciejwrzeszcz1@wp.pl'}
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request header <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-25 13:33:12 +0200] [21624] [INFO] --------------------------------
+[2023-06-25 13:33:12 +0200] [21624] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request IP from: mockserver
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request JSON {}
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request header <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '2', 'content-type': 'application/json')>
+[2023-06-25 13:33:12 +0200] [21624] [INFO] --------------------------------
+[2023-06-25 13:33:12 +0200] [21624] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request IP from: mockserver
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request JSON {'username': 'Sheida', 'password': 'admin', 'email': 'maciejwrzeszcz1@wp.pl'}
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request header <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-25 13:33:12 +0200] [21624] [INFO] --------------------------------
+[2023-06-25 13:33:12 +0200] [21624] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request IP from: mockserver
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request JSON None
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request header <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNoZWlkYSIsImVtYWlsIjoibWFjaWVqd3J6ZXN6Y3oxQHdwLnBsIiwicHJlbWl1bV9leHBpcmF0aW9uX2RhdGUiOiIyMDIzLTA2LTI1IDEzOjMzOjEyLjE4ODEyNiIsImlzX2FkbWluIjpmYWxzZSwidG9rZW5fZXhwaXJhdGlvbl9kYXRlIjoiMjAyMy0wNy0wMiJ9.bMusUrYjkH9RTkiSEDj62RisZoekyCHpCDCccQ43P3w')>
+[2023-06-25 13:33:12 +0200] [21624] [INFO] --------------------------------
+[2023-06-25 13:33:12 +0200] [21624] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request IP from: mockserver
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request JSON {'username': 'Sheida', 'password': 'admin', 'email': 'maciejwrzeszcz1@wp.pl'}
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request header <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-25 13:33:12 +0200] [21624] [INFO] --------------------------------
+[2023-06-25 13:33:12 +0200] [21624] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request IP from: mockserver
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request JSON None
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request header <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer ')>
+[2023-06-25 13:33:12 +0200] [21624] [INFO] --------------------------------
+[2023-06-25 13:33:12 +0200] [21624] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request IP from: mockserver
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request JSON {'username': 'Sheida', 'password': 'admin', 'email': 'maciejwrzeszcz1@wp.pl'}
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request header <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-25 13:33:12 +0200] [21624] [INFO] --------------------------------
+[2023-06-25 13:33:12 +0200] [21624] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request IP from: mockserver
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request JSON None
+[2023-06-25 13:33:12 +0200] [21624] [INFO] Request header <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer invalid_token')>
+[2023-06-25 13:33:12 +0200] [21624] [INFO] --------------------------------
+[2023-06-25 13:35:05 +0200] [912] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request METHOD from: POST
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request IP from: mockserver
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request HEADER <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request JSON {'username': 'Sheida', 'password': 'admin', 'email': 'maciejwrzeszcz1@wp.pl'}
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request BODY b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-25 13:35:05 +0200] [912] [INFO] --------------------------------
+[2023-06-25 13:35:05 +0200] [912] [INFO] URL: http://mockserver:1234/login
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request METHOD from: GET
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request IP from: mockserver
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request HEADER <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNoZWlkYSIsImVtYWlsIjoibWFjaWVqd3J6ZXN6Y3oxQHdwLnBsIiwicHJlbWl1bV9leHBpcmF0aW9uX2RhdGUiOiIyMDIzLTA2LTI1IDEzOjM1OjA1LjIyMjY0MSIsImlzX2FkbWluIjpmYWxzZSwidG9rZW5fZXhwaXJhdGlvbl9kYXRlIjoiMjAyMy0wNy0wMiJ9.ANey6nehPlmasPMMlPDq7wXKCtfZTtLyQitPKSPuDEg')>
+[2023-06-25 13:35:05 +0200] [912] [INFO] --------------------------------
+[2023-06-25 13:35:05 +0200] [912] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request METHOD from: POST
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request IP from: mockserver
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request HEADER <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request JSON {'username': 'Sheida', 'password': 'admin', 'email': 'maciejwrzeszcz1@wp.pl'}
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request BODY b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-25 13:35:05 +0200] [912] [INFO] --------------------------------
+[2023-06-25 13:35:05 +0200] [912] [INFO] URL: http://mockserver:1234/login
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request METHOD from: GET
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request IP from: mockserver
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request HEADER <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer ')>
+[2023-06-25 13:35:05 +0200] [912] [INFO] --------------------------------
+[2023-06-25 13:35:05 +0200] [912] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request METHOD from: POST
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request IP from: mockserver
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request HEADER <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request JSON {'username': 'Sheida', 'password': 'admin', 'email': 'maciejwrzeszcz1@wp.pl'}
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request BODY b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-25 13:35:05 +0200] [912] [INFO] --------------------------------
+[2023-06-25 13:35:05 +0200] [912] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request METHOD from: POST
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request IP from: mockserver
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request HEADER <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request JSON {'username': 'Sheida', 'password': 'admin', 'email': 'maciejwrzeszcz1@wp.pl'}
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request BODY b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-25 13:35:05 +0200] [912] [INFO] --------------------------------
+[2023-06-25 13:35:05 +0200] [912] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request METHOD from: POST
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request IP from: mockserver
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request HEADER <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request JSON {'username': 'Sheida', 'password': 'admin', 'email': 'maciejwrzeszcz1@wp.pl'}
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request BODY b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-25 13:35:05 +0200] [912] [INFO] --------------------------------
+[2023-06-25 13:35:05 +0200] [912] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request METHOD from: POST
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request IP from: mockserver
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request HEADER <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '2', 'content-type': 'application/json')>
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request BODY b'{}'
+[2023-06-25 13:35:05 +0200] [912] [INFO] --------------------------------
+[2023-06-25 13:35:05 +0200] [912] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request METHOD from: POST
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request IP from: mockserver
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request HEADER <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request JSON {'username': 'Sheida', 'password': 'admin', 'email': 'maciejwrzeszcz1@wp.pl'}
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request BODY b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-25 13:35:05 +0200] [912] [INFO] --------------------------------
+[2023-06-25 13:35:05 +0200] [912] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request METHOD from: GET
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request IP from: mockserver
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request HEADER <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNoZWlkYSIsImVtYWlsIjoibWFjaWVqd3J6ZXN6Y3oxQHdwLnBsIiwicHJlbWl1bV9leHBpcmF0aW9uX2RhdGUiOiIyMDIzLTA2LTI1IDEzOjM1OjA1LjM3MDY0MSIsImlzX2FkbWluIjpmYWxzZSwidG9rZW5fZXhwaXJhdGlvbl9kYXRlIjoiMjAyMy0wNy0wMiJ9.eHpyB_ROjGyCgbDPkudkWhnlWGFDKwofHqynwToGA4A')>
+[2023-06-25 13:35:05 +0200] [912] [INFO] --------------------------------
+[2023-06-25 13:35:05 +0200] [912] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request METHOD from: POST
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request IP from: mockserver
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request HEADER <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request JSON {'username': 'Sheida', 'password': 'admin', 'email': 'maciejwrzeszcz1@wp.pl'}
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request BODY b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-25 13:35:05 +0200] [912] [INFO] --------------------------------
+[2023-06-25 13:35:05 +0200] [912] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request METHOD from: GET
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request IP from: mockserver
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request HEADER <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer ')>
+[2023-06-25 13:35:05 +0200] [912] [INFO] --------------------------------
+[2023-06-25 13:35:05 +0200] [912] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request METHOD from: POST
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request IP from: mockserver
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request HEADER <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request JSON {'username': 'Sheida', 'password': 'admin', 'email': 'maciejwrzeszcz1@wp.pl'}
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request BODY b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-25 13:35:05 +0200] [912] [INFO] --------------------------------
+[2023-06-25 13:35:05 +0200] [912] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request METHOD from: GET
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request IP from: mockserver
+[2023-06-25 13:35:05 +0200] [912] [INFO] Request HEADER <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer invalid_token')>
+[2023-06-25 13:35:05 +0200] [912] [INFO] --------------------------------
+[2023-06-25 13:36:29 +0200] [17132] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request METHOD: POST
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request IP: mockserver
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-25 13:36:29 +0200] [17132] [INFO] --------------------------------
+[2023-06-25 13:36:29 +0200] [17132] [INFO] URL: http://mockserver:1234/login
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request METHOD: GET
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request IP: mockserver
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNoZWlkYSIsImVtYWlsIjoibWFjaWVqd3J6ZXN6Y3oxQHdwLnBsIiwicHJlbWl1bV9leHBpcmF0aW9uX2RhdGUiOiIyMDIzLTA2LTI1IDEzOjM2OjI5Ljc3NjIzNiIsImlzX2FkbWluIjpmYWxzZSwidG9rZW5fZXhwaXJhdGlvbl9kYXRlIjoiMjAyMy0wNy0wMiJ9.wvcHMhXqD-Sxr18BR20YfRXP1ViekBS56iRYMfw6stc')>
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request BODY: b''
+[2023-06-25 13:36:29 +0200] [17132] [INFO] --------------------------------
+[2023-06-25 13:36:29 +0200] [17132] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request METHOD: POST
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request IP: mockserver
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-25 13:36:29 +0200] [17132] [INFO] --------------------------------
+[2023-06-25 13:36:29 +0200] [17132] [INFO] URL: http://mockserver:1234/login
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request METHOD: GET
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request IP: mockserver
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer ')>
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request BODY: b''
+[2023-06-25 13:36:29 +0200] [17132] [INFO] --------------------------------
+[2023-06-25 13:36:29 +0200] [17132] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request METHOD: POST
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request IP: mockserver
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-25 13:36:29 +0200] [17132] [INFO] --------------------------------
+[2023-06-25 13:36:29 +0200] [17132] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request METHOD: POST
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request IP: mockserver
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-25 13:36:29 +0200] [17132] [INFO] --------------------------------
+[2023-06-25 13:36:29 +0200] [17132] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request METHOD: POST
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request IP: mockserver
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-25 13:36:29 +0200] [17132] [INFO] --------------------------------
+[2023-06-25 13:36:29 +0200] [17132] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request METHOD: POST
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request IP: mockserver
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '2', 'content-type': 'application/json')>
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request BODY: b'{}'
+[2023-06-25 13:36:29 +0200] [17132] [INFO] --------------------------------
+[2023-06-25 13:36:29 +0200] [17132] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request METHOD: POST
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request IP: mockserver
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-25 13:36:29 +0200] [17132] [INFO] --------------------------------
+[2023-06-25 13:36:29 +0200] [17132] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request METHOD: GET
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request IP: mockserver
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNoZWlkYSIsImVtYWlsIjoibWFjaWVqd3J6ZXN6Y3oxQHdwLnBsIiwicHJlbWl1bV9leHBpcmF0aW9uX2RhdGUiOiIyMDIzLTA2LTI1IDEzOjM2OjI5LjkxNzIzNiIsImlzX2FkbWluIjpmYWxzZSwidG9rZW5fZXhwaXJhdGlvbl9kYXRlIjoiMjAyMy0wNy0wMiJ9.gktLVvN9zRAytIIjwk3rWLFfCBmLSCIw1qcFmJSFggc')>
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request BODY: b''
+[2023-06-25 13:36:29 +0200] [17132] [INFO] --------------------------------
+[2023-06-25 13:36:29 +0200] [17132] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request METHOD: POST
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request IP: mockserver
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-25 13:36:29 +0200] [17132] [INFO] --------------------------------
+[2023-06-25 13:36:29 +0200] [17132] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request METHOD: GET
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request IP: mockserver
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer ')>
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request BODY: b''
+[2023-06-25 13:36:29 +0200] [17132] [INFO] --------------------------------
+[2023-06-25 13:36:29 +0200] [17132] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request METHOD: POST
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request IP: mockserver
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-25 13:36:29 +0200] [17132] [INFO] --------------------------------
+[2023-06-25 13:36:29 +0200] [17132] [INFO] URL: http://mockserver:1234/user
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request METHOD: GET
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request IP: mockserver
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer invalid_token')>
+[2023-06-25 13:36:29 +0200] [17132] [INFO] Request BODY: b''
+[2023-06-25 13:36:29 +0200] [17132] [INFO] --------------------------------
+[2023-06-26 07:43:45 +0200] [14452] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request METHOD: POST
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request IP: mockserver
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 07:43:45 +0200] [14452] [INFO] --------------------------------
+[2023-06-26 07:43:45 +0200] [14452] [INFO] URL: http://mockserver:1234/login
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request METHOD: GET
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request IP: mockserver
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNoZWlkYSIsImVtYWlsIjoibWFjaWVqd3J6ZXN6Y3oxQHdwLnBsIiwicHJlbWl1bV9leHBpcmF0aW9uX2RhdGUiOiIyMDIzLTA2LTI2IDA3OjQzOjQ1LjYwMzcxMiIsImlzX2FkbWluIjpmYWxzZSwidG9rZW5fZXhwaXJhdGlvbl9kYXRlIjoiMjAyMy0wNy0wMyJ9.iNiXVSjfpuvrX45VVGzSiOgJWRFw4hnLNp8WVvGdjFc')>
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request BODY: b''
+[2023-06-26 07:43:45 +0200] [14452] [INFO] --------------------------------
+[2023-06-26 07:43:45 +0200] [14452] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request METHOD: POST
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request IP: mockserver
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 07:43:45 +0200] [14452] [INFO] --------------------------------
+[2023-06-26 07:43:45 +0200] [14452] [INFO] URL: http://mockserver:1234/login
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request METHOD: GET
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request IP: mockserver
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer ')>
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request BODY: b''
+[2023-06-26 07:43:45 +0200] [14452] [INFO] --------------------------------
+[2023-06-26 07:43:45 +0200] [14452] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request METHOD: POST
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request IP: mockserver
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 07:43:45 +0200] [14452] [INFO] --------------------------------
+[2023-06-26 07:43:45 +0200] [14452] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request METHOD: POST
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request IP: mockserver
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 07:43:45 +0200] [14452] [INFO] --------------------------------
+[2023-06-26 07:43:45 +0200] [14452] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request METHOD: POST
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request IP: mockserver
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 07:43:45 +0200] [14452] [INFO] --------------------------------
+[2023-06-26 07:43:45 +0200] [14452] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request METHOD: POST
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request IP: mockserver
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '2', 'content-type': 'application/json')>
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request BODY: b'{}'
+[2023-06-26 07:43:45 +0200] [14452] [INFO] --------------------------------
+[2023-06-26 07:43:45 +0200] [14452] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request METHOD: POST
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request IP: mockserver
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 07:43:45 +0200] [14452] [INFO] --------------------------------
+[2023-06-26 07:43:45 +0200] [14452] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request METHOD: GET
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request IP: mockserver
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNoZWlkYSIsImVtYWlsIjoibWFjaWVqd3J6ZXN6Y3oxQHdwLnBsIiwicHJlbWl1bV9leHBpcmF0aW9uX2RhdGUiOiIyMDIzLTA2LTI2IDA3OjQzOjQ1Ljc0ODcwMCIsImlzX2FkbWluIjpmYWxzZSwidG9rZW5fZXhwaXJhdGlvbl9kYXRlIjoiMjAyMy0wNy0wMyJ9.eKKdzs8cTcSWzOrv0-FWdpUmN0ylSI3pJoD9Y2iT9dk')>
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request BODY: b''
+[2023-06-26 07:43:45 +0200] [14452] [INFO] --------------------------------
+[2023-06-26 07:43:45 +0200] [14452] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request METHOD: POST
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request IP: mockserver
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 07:43:45 +0200] [14452] [INFO] --------------------------------
+[2023-06-26 07:43:45 +0200] [14452] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request METHOD: GET
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request IP: mockserver
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer ')>
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request BODY: b''
+[2023-06-26 07:43:45 +0200] [14452] [INFO] --------------------------------
+[2023-06-26 07:43:45 +0200] [14452] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request METHOD: POST
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request IP: mockserver
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 07:43:45 +0200] [14452] [INFO] --------------------------------
+[2023-06-26 07:43:45 +0200] [14452] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request METHOD: GET
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request IP: mockserver
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer invalid_token')>
+[2023-06-26 07:43:45 +0200] [14452] [INFO] Request BODY: b''
+[2023-06-26 07:43:45 +0200] [14452] [INFO] --------------------------------
+[2023-06-26 07:50:51 +0200] [20920] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request METHOD: POST
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request IP: mockserver
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 07:50:51 +0200] [20920] [INFO] --------------------------------
+[2023-06-26 07:50:51 +0200] [20920] [INFO] URL: http://mockserver:1234/login
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request METHOD: GET
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request IP: mockserver
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNoZWlkYSIsImVtYWlsIjoibWFjaWVqd3J6ZXN6Y3oxQHdwLnBsIiwicHJlbWl1bV9leHBpcmF0aW9uX2RhdGUiOiIyMDIzLTA2LTI2IDA3OjUwOjUxLjM3ODY2NyIsImlzX2FkbWluIjpmYWxzZSwidG9rZW5fZXhwaXJhdGlvbl9kYXRlIjoiMjAyMy0wNy0wMyJ9.VrCs1reAYd8cx1SZ0tpEuravuL3CjTDE0BHC7RF50Tg')>
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request BODY: b''
+[2023-06-26 07:50:51 +0200] [20920] [INFO] --------------------------------
+[2023-06-26 07:50:51 +0200] [20920] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request METHOD: POST
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request IP: mockserver
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 07:50:51 +0200] [20920] [INFO] --------------------------------
+[2023-06-26 07:50:51 +0200] [20920] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request METHOD: POST
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request IP: mockserver
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 07:50:51 +0200] [20920] [INFO] --------------------------------
+[2023-06-26 07:50:51 +0200] [20920] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request METHOD: POST
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request IP: mockserver
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 07:50:51 +0200] [20920] [INFO] --------------------------------
+[2023-06-26 07:50:51 +0200] [20920] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request METHOD: POST
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request IP: mockserver
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '2', 'content-type': 'application/json')>
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request BODY: b'{}'
+[2023-06-26 07:50:51 +0200] [20920] [INFO] --------------------------------
+[2023-06-26 07:50:51 +0200] [20920] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request METHOD: POST
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request IP: mockserver
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 07:50:51 +0200] [20920] [INFO] --------------------------------
+[2023-06-26 07:50:51 +0200] [20920] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request METHOD: POST
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request IP: mockserver
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 07:50:51 +0200] [20920] [INFO] --------------------------------
+[2023-06-26 07:50:51 +0200] [20920] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request METHOD: GET
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request IP: mockserver
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer ')>
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request BODY: b''
+[2023-06-26 07:50:51 +0200] [20920] [INFO] --------------------------------
+[2023-06-26 07:50:51 +0200] [20920] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request METHOD: POST
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request IP: mockserver
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 07:50:51 +0200] [20920] [INFO] --------------------------------
+[2023-06-26 07:50:51 +0200] [20920] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request METHOD: GET
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request IP: mockserver
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer invalid_token')>
+[2023-06-26 07:50:51 +0200] [20920] [INFO] Request BODY: b''
+[2023-06-26 07:50:51 +0200] [20920] [INFO] --------------------------------
+[2023-06-26 07:53:03 +0200] [6056] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request METHOD: POST
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request IP: mockserver
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 07:53:03 +0200] [6056] [INFO] --------------------------------
+[2023-06-26 07:53:03 +0200] [6056] [INFO] URL: http://mockserver:1234/login
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request METHOD: GET
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request IP: mockserver
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNoZWlkYSIsImVtYWlsIjoibWFjaWVqd3J6ZXN6Y3oxQHdwLnBsIiwicHJlbWl1bV9leHBpcmF0aW9uX2RhdGUiOiIyMDIzLTA2LTI2IDA3OjUzOjAzLjQ3OTk3NCIsImlzX2FkbWluIjpmYWxzZSwidG9rZW5fZXhwaXJhdGlvbl9kYXRlIjoiMjAyMy0wNy0wMyJ9.U2S-DOG3ro2BHj2zc3SPSxmd-GyWYdg_CPtGKGI0R-M')>
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request BODY: b''
+[2023-06-26 07:53:03 +0200] [6056] [INFO] --------------------------------
+[2023-06-26 07:53:03 +0200] [6056] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request METHOD: POST
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request IP: mockserver
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 07:53:03 +0200] [6056] [INFO] --------------------------------
+[2023-06-26 07:53:03 +0200] [6056] [INFO] URL: http://mockserver:1234/login
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request METHOD: GET
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request IP: mockserver
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer ')>
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request BODY: b''
+[2023-06-26 07:53:03 +0200] [6056] [INFO] --------------------------------
+[2023-06-26 07:53:03 +0200] [6056] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request METHOD: POST
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request IP: mockserver
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 07:53:03 +0200] [6056] [INFO] --------------------------------
+[2023-06-26 07:53:03 +0200] [6056] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request METHOD: POST
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request IP: mockserver
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 07:53:03 +0200] [6056] [INFO] --------------------------------
+[2023-06-26 07:53:03 +0200] [6056] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request METHOD: POST
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request IP: mockserver
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 07:53:03 +0200] [6056] [INFO] --------------------------------
+[2023-06-26 07:53:03 +0200] [6056] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request METHOD: POST
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request IP: mockserver
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '2', 'content-type': 'application/json')>
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request BODY: b'{}'
+[2023-06-26 07:53:03 +0200] [6056] [INFO] --------------------------------
+[2023-06-26 07:53:03 +0200] [6056] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request METHOD: POST
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request IP: mockserver
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 07:53:03 +0200] [6056] [INFO] --------------------------------
+[2023-06-26 07:53:03 +0200] [6056] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request METHOD: GET
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request IP: mockserver
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNoZWlkYSIsImVtYWlsIjoibWFjaWVqd3J6ZXN6Y3oxQHdwLnBsIiwicHJlbWl1bV9leHBpcmF0aW9uX2RhdGUiOiIyMDIzLTA2LTI2IDA3OjUzOjAzLjYyOTk3NCIsImlzX2FkbWluIjpmYWxzZSwidG9rZW5fZXhwaXJhdGlvbl9kYXRlIjoiMjAyMy0wNy0wMyJ9.7D9qyBD_F1am1kd2OH3jOKOolrH8RI0XHhYHjwacerA')>
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request BODY: b''
+[2023-06-26 07:53:03 +0200] [6056] [INFO] --------------------------------
+[2023-06-26 07:53:03 +0200] [6056] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request METHOD: POST
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request IP: mockserver
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 07:53:03 +0200] [6056] [INFO] --------------------------------
+[2023-06-26 07:53:03 +0200] [6056] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request METHOD: GET
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request IP: mockserver
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer ')>
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request BODY: b''
+[2023-06-26 07:53:03 +0200] [6056] [INFO] --------------------------------
+[2023-06-26 07:53:03 +0200] [6056] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request METHOD: POST
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request IP: mockserver
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 07:53:03 +0200] [6056] [INFO] --------------------------------
+[2023-06-26 07:53:03 +0200] [6056] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request METHOD: GET
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request IP: mockserver
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer invalid_token')>
+[2023-06-26 07:53:03 +0200] [6056] [INFO] Request BODY: b''
+[2023-06-26 07:53:03 +0200] [6056] [INFO] --------------------------------
+[2023-06-26 21:56:39 +0200] [17612] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request METHOD: POST
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request IP: mockserver
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 21:56:39 +0200] [17612] [INFO] --------------------------------
+[2023-06-26 21:56:39 +0200] [17612] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request METHOD: POST
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request IP: mockserver
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 21:56:39 +0200] [17612] [INFO] --------------------------------
+[2023-06-26 21:56:39 +0200] [17612] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request METHOD: POST
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request IP: mockserver
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 21:56:39 +0200] [17612] [INFO] --------------------------------
+[2023-06-26 21:56:39 +0200] [17612] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request METHOD: POST
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request IP: mockserver
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 21:56:39 +0200] [17612] [INFO] --------------------------------
+[2023-06-26 21:56:39 +0200] [17612] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request METHOD: POST
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request IP: mockserver
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '2', 'content-type': 'application/json')>
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request BODY: b'{}'
+[2023-06-26 21:56:39 +0200] [17612] [INFO] --------------------------------
+[2023-06-26 21:56:39 +0200] [17612] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request METHOD: POST
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request IP: mockserver
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 21:56:39 +0200] [17612] [INFO] --------------------------------
+[2023-06-26 21:56:39 +0200] [17612] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request METHOD: POST
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request IP: mockserver
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 21:56:39 +0200] [17612] [INFO] --------------------------------
+[2023-06-26 21:56:39 +0200] [17612] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request METHOD: GET
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request IP: mockserver
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer ')>
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request BODY: b''
+[2023-06-26 21:56:39 +0200] [17612] [INFO] --------------------------------
+[2023-06-26 21:56:39 +0200] [17612] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request METHOD: POST
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request IP: mockserver
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 21:56:39 +0200] [17612] [INFO] --------------------------------
+[2023-06-26 21:56:39 +0200] [17612] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request METHOD: GET
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request IP: mockserver
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer invalid_token')>
+[2023-06-26 21:56:39 +0200] [17612] [INFO] Request BODY: b''
+[2023-06-26 21:56:39 +0200] [17612] [INFO] --------------------------------
+[2023-06-26 21:56:50 +0200] [11032] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request METHOD: POST
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request IP: mockserver
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 21:56:50 +0200] [11032] [INFO] --------------------------------
+[2023-06-26 21:56:50 +0200] [11032] [INFO] URL: http://mockserver:1234/login
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request METHOD: GET
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request IP: mockserver
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNoZWlkYSIsImVtYWlsIjoibWFjaWVqd3J6ZXN6Y3oxQHdwLnBsIiwicHJlbWl1bV9leHBpcmF0aW9uX2RhdGUiOiIyMDIzLTA2LTI2IDIxOjU2OjUwLjI3ODMyMiIsImlzX2FkbWluIjpmYWxzZSwidG9rZW5fZXhwaXJhdGlvbl9kYXRlIjoiMjAyMy0wNy0wMyJ9.IC7qdS2rScq9_YGgSOgSwhkyBtIvV4tXPV96Y4NlEvw')>
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request BODY: b''
+[2023-06-26 21:56:50 +0200] [11032] [INFO] --------------------------------
+[2023-06-26 21:56:50 +0200] [11032] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request METHOD: POST
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request IP: mockserver
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 21:56:50 +0200] [11032] [INFO] --------------------------------
+[2023-06-26 21:56:50 +0200] [11032] [INFO] URL: http://mockserver:1234/login
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request METHOD: GET
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request IP: mockserver
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer ')>
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request BODY: b''
+[2023-06-26 21:56:50 +0200] [11032] [INFO] --------------------------------
+[2023-06-26 21:56:50 +0200] [11032] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request METHOD: POST
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request IP: mockserver
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 21:56:50 +0200] [11032] [INFO] --------------------------------
+[2023-06-26 21:56:50 +0200] [11032] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request METHOD: POST
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request IP: mockserver
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 21:56:50 +0200] [11032] [INFO] --------------------------------
+[2023-06-26 21:56:50 +0200] [11032] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request METHOD: POST
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request IP: mockserver
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 21:56:50 +0200] [11032] [INFO] --------------------------------
+[2023-06-26 21:56:50 +0200] [11032] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request METHOD: POST
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request IP: mockserver
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '2', 'content-type': 'application/json')>
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request BODY: b'{}'
+[2023-06-26 21:56:50 +0200] [11032] [INFO] --------------------------------
+[2023-06-26 21:56:50 +0200] [11032] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request METHOD: POST
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request IP: mockserver
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 21:56:50 +0200] [11032] [INFO] --------------------------------
+[2023-06-26 21:56:50 +0200] [11032] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request METHOD: GET
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request IP: mockserver
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNoZWlkYSIsImVtYWlsIjoibWFjaWVqd3J6ZXN6Y3oxQHdwLnBsIiwicHJlbWl1bV9leHBpcmF0aW9uX2RhdGUiOiIyMDIzLTA2LTI2IDIxOjU2OjUwLjQwMTA0NiIsImlzX2FkbWluIjpmYWxzZSwidG9rZW5fZXhwaXJhdGlvbl9kYXRlIjoiMjAyMy0wNy0wMyJ9.yJWyU3-uOHLOMGdMs8ZxRPNEuXyDhKXLQ_akS4YjV0k')>
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request BODY: b''
+[2023-06-26 21:56:50 +0200] [11032] [INFO] --------------------------------
+[2023-06-26 21:56:50 +0200] [11032] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request METHOD: POST
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request IP: mockserver
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 21:56:50 +0200] [11032] [INFO] --------------------------------
+[2023-06-26 21:56:50 +0200] [11032] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request METHOD: GET
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request IP: mockserver
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer ')>
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request BODY: b''
+[2023-06-26 21:56:50 +0200] [11032] [INFO] --------------------------------
+[2023-06-26 21:56:50 +0200] [11032] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request METHOD: POST
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request IP: mockserver
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 21:56:50 +0200] [11032] [INFO] --------------------------------
+[2023-06-26 21:56:50 +0200] [11032] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request METHOD: GET
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request IP: mockserver
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer invalid_token')>
+[2023-06-26 21:56:50 +0200] [11032] [INFO] Request BODY: b''
+[2023-06-26 21:56:50 +0200] [11032] [INFO] --------------------------------
+[2023-06-26 22:13:56 +0200] [9676] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request METHOD: POST
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request IP: mockserver
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 22:13:56 +0200] [9676] [INFO] --------------------------------
+[2023-06-26 22:13:56 +0200] [9676] [INFO] URL: http://mockserver:1234/login
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request METHOD: GET
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request IP: mockserver
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNoZWlkYSIsImVtYWlsIjoibWFjaWVqd3J6ZXN6Y3oxQHdwLnBsIiwicHJlbWl1bV9leHBpcmF0aW9uX2RhdGUiOiIyMDIzLTA2LTI2IDIyOjEzOjU2LjY4NzYxNSIsImlzX2FkbWluIjpmYWxzZSwidG9rZW5fZXhwaXJhdGlvbl9kYXRlIjoiMjAyMy0wNy0wMyJ9.oo-1vc_119RRvBkyLCrS-YhSvP3ue5tvplig3k1d8t0')>
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request BODY: b''
+[2023-06-26 22:13:56 +0200] [9676] [INFO] --------------------------------
+[2023-06-26 22:13:56 +0200] [9676] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request METHOD: POST
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request IP: mockserver
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 22:13:56 +0200] [9676] [INFO] --------------------------------
+[2023-06-26 22:13:56 +0200] [9676] [INFO] URL: http://mockserver:1234/login
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request METHOD: GET
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request IP: mockserver
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer ')>
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request BODY: b''
+[2023-06-26 22:13:56 +0200] [9676] [INFO] --------------------------------
+[2023-06-26 22:13:56 +0200] [9676] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request METHOD: POST
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request IP: mockserver
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 22:13:56 +0200] [9676] [INFO] --------------------------------
+[2023-06-26 22:13:56 +0200] [9676] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request METHOD: POST
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request IP: mockserver
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 22:13:56 +0200] [9676] [INFO] --------------------------------
+[2023-06-26 22:13:56 +0200] [9676] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request METHOD: POST
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request IP: mockserver
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 22:13:56 +0200] [9676] [INFO] --------------------------------
+[2023-06-26 22:13:56 +0200] [9676] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request METHOD: POST
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request IP: mockserver
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '2', 'content-type': 'application/json')>
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request BODY: b'{}'
+[2023-06-26 22:13:56 +0200] [9676] [INFO] --------------------------------
+[2023-06-26 22:13:56 +0200] [9676] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request METHOD: POST
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request IP: mockserver
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 22:13:56 +0200] [9676] [INFO] --------------------------------
+[2023-06-26 22:13:56 +0200] [9676] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request METHOD: GET
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request IP: mockserver
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNoZWlkYSIsImVtYWlsIjoibWFjaWVqd3J6ZXN6Y3oxQHdwLnBsIiwicHJlbWl1bV9leHBpcmF0aW9uX2RhdGUiOiIyMDIzLTA2LTI2IDIyOjEzOjU2LjgwOTE2MiIsImlzX2FkbWluIjpmYWxzZSwidG9rZW5fZXhwaXJhdGlvbl9kYXRlIjoiMjAyMy0wNy0wMyJ9.aDaM0oXGZVw7TlUTlRVrni_Yk3_EfDvdnai-7tiUuZ8')>
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request BODY: b''
+[2023-06-26 22:13:56 +0200] [9676] [INFO] --------------------------------
+[2023-06-26 22:13:56 +0200] [9676] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request METHOD: POST
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request IP: mockserver
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 22:13:56 +0200] [9676] [INFO] --------------------------------
+[2023-06-26 22:13:56 +0200] [9676] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request METHOD: GET
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request IP: mockserver
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer ')>
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request BODY: b''
+[2023-06-26 22:13:56 +0200] [9676] [INFO] --------------------------------
+[2023-06-26 22:13:56 +0200] [9676] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request METHOD: POST
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request IP: mockserver
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 22:13:56 +0200] [9676] [INFO] --------------------------------
+[2023-06-26 22:13:56 +0200] [9676] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request METHOD: GET
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request IP: mockserver
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer invalid_token')>
+[2023-06-26 22:13:56 +0200] [9676] [INFO] Request BODY: b''
+[2023-06-26 22:13:56 +0200] [9676] [INFO] --------------------------------
+[2023-06-26 22:14:16 +0200] [16636] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request METHOD: POST
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request IP: mockserver
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 22:14:16 +0200] [16636] [INFO] --------------------------------
+[2023-06-26 22:14:16 +0200] [16636] [INFO] URL: http://mockserver:1234/login
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request METHOD: GET
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request IP: mockserver
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNoZWlkYSIsImVtYWlsIjoibWFjaWVqd3J6ZXN6Y3oxQHdwLnBsIiwicHJlbWl1bV9leHBpcmF0aW9uX2RhdGUiOiIyMDIzLTA2LTI2IDIyOjE0OjE2LjE2ODU0OSIsImlzX2FkbWluIjpmYWxzZSwidG9rZW5fZXhwaXJhdGlvbl9kYXRlIjoiMjAyMy0wNy0wMyJ9.vr6FQ7CBdCgpvgBEOB4ZOZsCQ9_mJRrmfeIC3HvhxnY')>
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request BODY: b''
+[2023-06-26 22:14:16 +0200] [16636] [INFO] --------------------------------
+[2023-06-26 22:14:16 +0200] [16636] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request METHOD: POST
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request IP: mockserver
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 22:14:16 +0200] [16636] [INFO] --------------------------------
+[2023-06-26 22:14:16 +0200] [16636] [INFO] URL: http://mockserver:1234/login
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request METHOD: GET
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request IP: mockserver
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer ')>
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request BODY: b''
+[2023-06-26 22:14:16 +0200] [16636] [INFO] --------------------------------
+[2023-06-26 22:14:16 +0200] [16636] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request METHOD: POST
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request IP: mockserver
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 22:14:16 +0200] [16636] [INFO] --------------------------------
+[2023-06-26 22:14:16 +0200] [16636] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request METHOD: POST
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request IP: mockserver
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 22:14:16 +0200] [16636] [INFO] --------------------------------
+[2023-06-26 22:14:16 +0200] [16636] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request METHOD: POST
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request IP: mockserver
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 22:14:16 +0200] [16636] [INFO] --------------------------------
+[2023-06-26 22:14:16 +0200] [16636] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request METHOD: POST
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request IP: mockserver
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '2', 'content-type': 'application/json')>
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request BODY: b'{}'
+[2023-06-26 22:14:16 +0200] [16636] [INFO] --------------------------------
+[2023-06-26 22:14:16 +0200] [16636] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request METHOD: POST
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request IP: mockserver
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 22:14:16 +0200] [16636] [INFO] --------------------------------
+[2023-06-26 22:14:16 +0200] [16636] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request METHOD: GET
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request IP: mockserver
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNoZWlkYSIsImVtYWlsIjoibWFjaWVqd3J6ZXN6Y3oxQHdwLnBsIiwicHJlbWl1bV9leHBpcmF0aW9uX2RhdGUiOiIyMDIzLTA2LTI2IDIyOjE0OjE2LjI5MTk3NyIsImlzX2FkbWluIjpmYWxzZSwidG9rZW5fZXhwaXJhdGlvbl9kYXRlIjoiMjAyMy0wNy0wMyJ9.dikgCn63mvVje1qTyGjhdCoMVCJMdI2_3GHCijYDOBI')>
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request BODY: b''
+[2023-06-26 22:14:16 +0200] [16636] [INFO] --------------------------------
+[2023-06-26 22:14:16 +0200] [16636] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request METHOD: POST
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request IP: mockserver
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 22:14:16 +0200] [16636] [INFO] --------------------------------
+[2023-06-26 22:14:16 +0200] [16636] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request METHOD: GET
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request IP: mockserver
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer ')>
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request BODY: b''
+[2023-06-26 22:14:16 +0200] [16636] [INFO] --------------------------------
+[2023-06-26 22:14:16 +0200] [16636] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request METHOD: POST
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request IP: mockserver
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'content-length': '77', 'content-type': 'application/json')>
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request BODY: b'{"username": "Sheida", "password": "admin", "email": "maciejwrzeszcz1@wp.pl"}'
+[2023-06-26 22:14:16 +0200] [16636] [INFO] --------------------------------
+[2023-06-26 22:14:16 +0200] [16636] [INFO] URL: http://mockserver:1234/user
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request METHOD: GET
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request IP: mockserver
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request HEADER: <Header('host': 'mockserver:1234', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.23.3', 'authorization': 'Bearer invalid_token')>
+[2023-06-26 22:14:16 +0200] [16636] [INFO] Request BODY: b''
+[2023-06-26 22:14:16 +0200] [16636] [INFO] --------------------------------

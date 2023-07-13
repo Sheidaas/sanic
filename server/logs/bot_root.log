@@ -1,0 +1,15 @@
+[2023-06-27 06:54:44 +0200] [10464] [INFO] Root path is C:\Users\Sheida\Documents\GitHub\sanic\server
+[2023-06-27 06:54:44 +0200] [10464] [INFO] Database tables are dict_keys(['user', 'proxy', 'travian_server', 'adventure', 'hero', 'action', 'construction', 'activities_times', 'village', 'game_session'])
+[2023-06-27 06:54:46 +0200] [9668] [INFO] Root path is C:\Users\Sheida\Documents\GitHub\sanic\server
+[2023-06-27 06:54:46 +0200] [9668] [INFO] Database tables are dict_keys(['user', 'proxy', 'travian_server', 'adventure', 'hero', 'action', 'construction', 'activities_times', 'village', 'game_session'])
+[2023-06-27 06:57:31 +0200] [13336] [INFO] Root path is C:\Users\Sheida\Documents\GitHub\sanic\server
+[2023-06-27 06:57:31 +0200] [13336] [INFO] Database tables are dict_keys(['user', 'proxy', 'travian_server', 'adventure', 'hero', 'action', 'construction', 'activities_times', 'village', 'game_session'])
+[2023-06-27 06:57:33 +0200] [9404] [INFO] Root path is C:\Users\Sheida\Documents\GitHub\sanic\server
+[2023-06-27 06:57:33 +0200] [9404] [INFO] Database tables are dict_keys(['user', 'proxy', 'travian_server', 'adventure', 'hero', 'action', 'construction', 'activities_times', 'village', 'game_session'])
+[2023-06-27 07:41:31 +0200] [9240] [INFO] Database tables are dict_keys(['user', 'proxy', 'travian_server', 'adventure', 'hero', 'action', 'construction', 'activities_times', 'village', 'game_session'])
+[2023-06-27 07:41:33 +0200] [1160] [INFO] Database tables are dict_keys(['user', 'proxy', 'travian_server', 'adventure', 'hero', 'action', 'construction', 'activities_times', 'village', 'game_session'])
+[2023-06-27 07:41:47 +0200] [11668] [INFO] Database tables are dict_keys(['user', 'proxy', 'travian_server', 'adventure', 'hero', 'action', 'construction', 'activities_times', 'village', 'game_session'])
+[2023-06-27 07:41:47 +0200] [11668] [INFO] Root path is C:\Users\Sheida\Documents\GitHub\sanic\server
+[2023-06-27 07:41:48 +0200] [3164] [INFO] Database tables are dict_keys(['user', 'proxy', 'travian_server', 'adventure', 'hero', 'action', 'construction', 'activities_times', 'village', 'game_session'])
+[2023-06-27 09:16:03 +0200] [14092] [INFO] Root path is C:\Users\Sheida\Documents\GitHub\sanic\server
+[2023-06-27 09:16:03 +0200] [14092] [INFO] Database tables are dict_keys(['user', 'proxy', 'travian_server', 'adventure', 'hero', 'action', 'construction', 'activities_times', 'village', 'game_session'])

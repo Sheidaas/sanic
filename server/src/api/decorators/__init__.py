@@ -12,8 +12,7 @@ def is_authenticated():
         @wraps(func)
         async def decorated_function(view, request, *args, **kwargs):
             user_form = UserTokenLoginForm({'token': request.token})
-            is_valid = await user_form.is_valid()
-            if not is_valid:
+            if not await user_form.is_valid():
                 body = {
                     'errors': user_form.errors
                 }

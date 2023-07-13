@@ -1,0 +1,93 @@
+06/25/2023 08:04:18 AM :: INFO :: 
+  ┌────────────────────────────────────────────────────────────────────────────────┐
+  │                                 Sanic v23.3.0                                  │
+  │                       Goin' Fast @ http://localhost:8000                       │
+  ├───────────────────────┬────────────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │     mode: debug, single worker                         │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │   server: sanic, HTTP/1.1                              │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   python: 3.11.0                                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │ platform: Windows-10-10.0.19045-SP0                    │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ packages: sanic-routing==22.8.0, sanic-testing==23.3.0 │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │                                                        │
+  │ [48;2;255;13;104m                     [0m │                                                        │
+  │ Build Fast. Run Fast. │                                                        │
+  └───────────────────────┴────────────────────────────────────────────────────────┘
+
+06/25/2023 08:04:18 AM :: DEBUG :: Using selector: SelectSelector
+06/25/2023 08:04:18 AM :: DEBUG :: Creating multiprocessing context using 'spawn'
+06/25/2023 08:04:18 AM :: DEBUG :: [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+06/25/2023 08:04:19 AM :: DEBUG :: Using selector: SelectSelector
+06/25/2023 08:04:19 AM :: DEBUG :: [34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[17232][0m
+06/25/2023 08:04:19 AM :: INFO :: <Server sockets=(<asyncio.TransportSocket fd=832, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+06/25/2023 08:04:19 AM :: INFO :: Starting worker [17232]
+06/25/2023 08:04:50 AM :: INFO :: Received signal SIGINT. Shutting down.
+06/25/2023 08:04:50 AM :: DEBUG :: [34mTerminating a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[17232][0m
+06/25/2023 08:04:50 AM :: INFO :: Server Stopped
+06/25/2023 08:04:55 AM :: INFO :: 
+  ┌────────────────────────────────────────────────────────────────────────────────┐
+  │                                 Sanic v23.3.0                                  │
+  │                       Goin' Fast @ http://localhost:8000                       │
+  ├───────────────────────┬────────────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │     mode: debug, single worker                         │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │   server: sanic, HTTP/1.1                              │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   python: 3.11.0                                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │ platform: Windows-10-10.0.19045-SP0                    │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ packages: sanic-routing==22.8.0, sanic-testing==23.3.0 │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │                                                        │
+  │ [48;2;255;13;104m                     [0m │                                                        │
+  │ Build Fast. Run Fast. │                                                        │
+  └───────────────────────┴────────────────────────────────────────────────────────┘
+
+06/25/2023 08:04:56 AM :: DEBUG :: Using selector: SelectSelector
+06/25/2023 08:04:56 AM :: DEBUG :: Creating multiprocessing context using 'spawn'
+06/25/2023 08:04:56 AM :: DEBUG :: [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+06/25/2023 08:04:57 AM :: DEBUG :: Using selector: SelectSelector
+06/25/2023 08:04:57 AM :: DEBUG :: [34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[13780][0m
+06/25/2023 08:04:57 AM :: INFO :: <Server sockets=(<asyncio.TransportSocket fd=744, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+06/25/2023 08:04:57 AM :: INFO :: Starting worker [13780]
+06/25/2023 08:19:01 AM :: INFO :: Received signal SIGINT. Shutting down.
+06/25/2023 08:19:01 AM :: DEBUG :: [34mTerminating a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[13780][0m
+06/25/2023 08:19:01 AM :: INFO :: Server Stopped
+06/25/2023 08:22:32 AM :: INFO :: 
+  ┌────────────────────────────────────────────────────────────────────────────────┐
+  │                                 Sanic v23.3.0                                  │
+  │                       Goin' Fast @ http://localhost:8000                       │
+  ├───────────────────────┬────────────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │     mode: debug, single worker                         │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │   server: sanic, HTTP/1.1                              │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   python: 3.11.0                                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │ platform: Windows-10-10.0.19045-SP0                    │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ packages: sanic-routing==22.8.0, sanic-testing==23.3.0 │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │                                                        │
+  │ [48;2;255;13;104m                     [0m │                                                        │
+  │ Build Fast. Run Fast. │                                                        │
+  └───────────────────────┴────────────────────────────────────────────────────────┘
+
+06/25/2023 08:22:33 AM :: DEBUG :: Using selector: SelectSelector
+06/25/2023 08:22:33 AM :: DEBUG :: Creating multiprocessing context using 'spawn'
+06/25/2023 08:22:33 AM :: DEBUG :: [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+06/25/2023 08:22:33 AM :: DEBUG :: Using selector: SelectSelector
+06/25/2023 08:22:33 AM :: DEBUG :: [34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[4240][0m
+06/25/2023 08:22:33 AM :: INFO :: <Server sockets=(<asyncio.TransportSocket fd=740, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+06/25/2023 08:22:33 AM :: INFO :: Starting worker [4240]
+06/25/2023 08:22:34 AM :: DEBUG :: <Server sockets=(<asyncio.TransportSocket fd=740, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> got a new connection from ('127.0.0.1', 58679): <socket.socket fd=924, family=2, type=1, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 58679)>
+06/25/2023 08:22:34 AM :: INFO :: Request IP from: 127.0.0.1
+06/25/2023 08:22:34 AM :: INFO :: Request JSON None
+06/25/2023 08:22:34 AM :: INFO :: Request header <Header('host': 'localhost:8000', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8', 'accept-language': 'pl,en-US;q=0.7,en;q=0.3', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'upgrade-insecure-requests': '1', 'sec-fetch-dest': 'document', 'sec-fetch-mode': 'navigate', 'sec-fetch-site': 'none', 'sec-fetch-user': '?1')>
+06/25/2023 08:22:34 AM :: DEBUG :: The client accepts text/html, using 'html' from any
+06/25/2023 08:22:34 AM :: INFO :: 
+06/25/2023 08:22:34 AM :: WARNING :: Executing <Task pending name='Task-7' coro=<HttpProtocol.connection_task() running at C:\Users\Sheida\Documents\GitHub\sanic\venv\Lib\site-packages\sanic\server\protocols\http_protocol.py:153> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\Sheida\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:427> created at C:\Users\Sheida\Documents\GitHub\sanic\venv\Lib\site-packages\sanic\server\protocols\http_protocol.py:265> took 0.125 seconds
+06/25/2023 08:22:34 AM :: INFO :: Request IP from: 127.0.0.1
+06/25/2023 08:22:34 AM :: INFO :: Request JSON None
+06/25/2023 08:22:34 AM :: INFO :: Request header <Header('host': 'localhost:8000', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0', 'accept': 'image/avif,image/webp,*/*', 'accept-language': 'pl,en-US;q=0.7,en;q=0.3', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'referer': 'http://localhost:8000/', 'sec-fetch-dest': 'image', 'sec-fetch-mode': 'no-cors', 'sec-fetch-site': 'same-origin')>
+06/25/2023 08:22:34 AM :: DEBUG :: The client accepts */*, using 'text' from any
+06/25/2023 08:22:34 AM :: INFO :: 
+06/25/2023 08:22:34 AM :: DEBUG :: <_SelectorSocketTransport fd=924 read=polling write=<idle, bufsize=0>>: Fatal read error on socket transport
+Traceback (most recent call last):
+  File "C:\Users\Sheida\AppData\Local\Programs\Python\Python311\Lib\asyncio\selector_events.py", line 987, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+06/25/2023 08:25:02 AM :: INFO :: Received signal SIGINT. Shutting down.
+06/25/2023 08:25:02 AM :: DEBUG :: [34mTerminating a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[4240][0m
+06/25/2023 08:25:02 AM :: INFO :: Server Stopped

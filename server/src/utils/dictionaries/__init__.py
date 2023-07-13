@@ -1,5 +1,6 @@
 TRAVIAN_URLS = {
     'LOGIN': '/login.php',
+    'REGISTER': '',
     'RESOURCES': '/dorf1.php',
     'INSIDE_VILLAGE': '/dorf2.php',
     'HERO': '/hero',
@@ -70,4 +71,32 @@ ERROR_CODES = {
         'error': 'game-session-003',
         'message': 'User is not game session owner'
     },
+    'SERVER-ERROR-000': {
+        'error': 'server-error-000',
+        'message': 'Exception caught when encode jwt token'
+    },
+    'SERVER-ERROR-001': {
+        'error': 'server-error-001',
+        'message': 'Invalid token'
+    }
+}
+LOGGERS_NAMES = {
+    'ROOT': 'bot.root',
+    'ERROR': 'bot.error',
+    'ACCESS': 'bot.access',
+    'SERVER': 'bot.server'
+}
+DRIVER_MODES = {
+    'UNDETECTED': 'UNDETECTED',
+    'NORMAL': 'NORMAL',
+}
+WORKER_STATES = {
+    'STOPPED': 'STOPPED',
+    'STOPPING': 'STOPPING',
+    'RUNNING': 'RUNNING',
+}
+IMPLICITLY_WAIT_STATES = {
+    'NO_WAIT': 'NO_WAIT',
+    'AMOUNT_OF_TIME': 'AMOUNT_OF_TIME',
+    'RANDOM_FROM_RANGE': 'RANDOM_FROM_RANGE'
 }

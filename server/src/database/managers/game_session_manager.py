@@ -11,4 +11,4 @@ class GameSessionManager(Manager):
     async def get_game_session_by_uuid(self, uuid: str):
         session: Session = self.get_session()
         stmt = select(GameSession).where(GameSession.uuid == uuid)
-        return await session.execute(stmt).scalar_one_or_none()
+        return session.execute(stmt).scalar_one_or_none()

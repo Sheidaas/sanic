@@ -1,5 +1,4 @@
 from . import Base
-
 from sqlalchemy import ForeignKey
 from sqlalchemy import Interval
 from sqlalchemy import Integer

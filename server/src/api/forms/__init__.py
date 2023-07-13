@@ -9,7 +9,7 @@ class Form:
         self.errors: list[dict] = []
 
     async def save(self):
-        return await get_database().insert(self.cleaned_instance)
+        return await get_database().async_insert(self.cleaned_instance)
 
     async def is_valid(self):
         return

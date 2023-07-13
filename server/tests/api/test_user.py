@@ -22,7 +22,7 @@ class TestUserPost:
 
     @pytest.mark.usefixtures('app')
     @pytest.mark.asyncio
-    async def test_can_create_user_with_the_same_name(self, app: Sanic):
+    async def test_can_create_user_with_the_existing_name(self, app: Sanic):
         request, response = await create_user(app, USER_DATA)
         assert response.status_code == 201
         assert response.json.get(FIELD_NAMES['TOKEN'])
@@ -78,7 +78,7 @@ class TestUserGet:
     @pytest.mark.usefixtures('app')
     @pytest.mark.asyncio
     async def test_can_get_error_no_token(self, app: Sanic):
-        request_create_user, response_create_user = await create_user(app, USER_DATA)
+        await create_user(app, USER_DATA)
         token = ''
         request_get_user, response_get_user = await get_user(app, token)
         errors_list = response_get_user.json.get('errors')
@@ -90,7 +90,7 @@ class TestUserGet:
     @pytest.mark.usefixtures('app')
     @pytest.mark.asyncio
     async def test_can_get_error_invalid_token(self, app: Sanic):
-        request_create_user, response_create_user = await create_user(app, USER_DATA)
+        await create_user(app, USER_DATA)
         token = 'invalid_token'
         request_get_user, response_get_user = await get_user(app, token)
         errors_list = response_get_user.json.get('errors')

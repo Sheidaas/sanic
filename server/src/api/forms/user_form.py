@@ -1,7 +1,9 @@
 from . import Form
 from ...database.models.users import User
-from ...utils import get_database, decode_jwt
+from ...utils import get_database
+from ...utils.auth import decode_jwt
 from ...utils.dictionaries import ERROR_CODES, FIELD_NAMES
+from ...utils import encode_string_to_md5
 from hashlib import md5
 from datetime import datetime
 
@@ -22,6 +24,7 @@ class UserTokenLoginForm(Form):
         username = user_data.get(FIELD_NAMES['USERNAME'])
         if not username:
             self.errors.append(ERROR_CODES['AUTH-002'])
+            return False
 
         due_to = user_data.get(FIELD_NAMES['TOKEN_EXPIRATION_DATE'])
         if not due_to:
@@ -96,7 +99,7 @@ class UserRegisterForm(Form):
 
         self.cleaned_instance = User()
         self.cleaned_instance.name = username
-        self.cleaned_instance.password = md5(password.encode()).hexdigest()
+        self.cleaned_instance.password = encode_string_to_md5(password)
         self.cleaned_instance.email = email
         self.cleaned_instance.is_admin = False
         self.cleaned_instance.premium_end_date = datetime.now()

@@ -43,11 +43,3 @@ class TestLoginGet:
         assert not login_token
         assert len(errors_list) == 1
         assert errors_list[0]['error'] == ERROR_CODES['AUTH-001']['error']  # Empty credentials
-
-
-
-
-
-
-
-

@@ -32,10 +32,6 @@ class Navigator:
     def current_url(self) -> str:
         return self.driver.current_url
 
-    @staticmethod
-    def get_random_time() -> int:
-        return random.randint(1, 10)
-
     def login_to_game(self):
         action_chain = ActionChains(self.driver)
         try:

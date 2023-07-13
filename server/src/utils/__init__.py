@@ -1,9 +1,12 @@
 import os
-import datetime
+from random import randint
+from hashlib import md5
 from sanic import Sanic
-from jwt import decode
-from jwt import InvalidTokenError
+
 from configparser import ConfigParser
+from datetime import datetime
+from .dictionaries import FIELD_NAMES
+from .dictionaries import ERROR_CODES
 
 
 def read_config_file(root_path: str):
@@ -20,6 +23,10 @@ def get_database():
 def get_config() -> ConfigParser:
     app = Sanic.get_app()
     return app.ctx.get('CONFIG')
+
+
+def encode_string_to_md5(string: str) -> str:
+    return md5(string.encode()).hexdigest()
 
 
 def suppose_time_when_enough_resources(required_resources, current_resources, production, magazine_size, granary_size):
@@ -45,7 +52,7 @@ def suppose_time_when_enough_resources(required_resources, current_resources, pr
 
 
 def shift_resources(session):
-    current_time = datetime.datetime.now()
+    current_time = datetime.now()
     shift_time = current_time - session.last_refresh_time
     s_shift_time = shift_time.seconds
     if not s_shift_time or 5 > s_shift_time:
@@ -65,12 +72,8 @@ def shift_resources(session):
     return True
 
 
-def decode_jwt(token: str) -> dict | None:
-    config = get_config()
-    secret_key = config.get('JWT', 'SECRET_KEY')
-    algorithms = config.get('JWT', 'ALGORITHMS').split(',')
-    
-    try:
-        return decode(token, secret_key, algorithms=algorithms)
-    except InvalidTokenError:
-        return None
+def get_random_time(a: int, b: int) -> int:
+    """
+    Return random integer in range [a, b], including both end points.
+    """
+    return randint(a, b)
