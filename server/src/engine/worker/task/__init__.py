@@ -5,8 +5,6 @@ from queue import Queue
 TASK TYPES:
 ACTIONS_CHAIN
 DISCOVERY
-
-
 """
 
 
@@ -14,6 +12,8 @@ class Task:
 
     def __init__(self):
         self.id: str = ''
+        self.name: str = ''
+        self.description: str = ''
         self.position_in_queue: int = 0
         self.priority: int = 0
         self.type: str = ''

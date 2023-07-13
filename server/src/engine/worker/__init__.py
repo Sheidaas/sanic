@@ -1,4 +1,4 @@
-import datetime
+from selenium import webdriver
 from .process import WorkerProcess
 import undetected_chromedriver as uc
 from ..navigator import Navigator
@@ -10,16 +10,26 @@ import multiprocessing as mp
 from multiprocessing.connection import Connection
 
 
-CONFIG = {
-    'no_tasks_time': timedelta(days=0, hours=0, minutes=5, seconds=0, milliseconds=0, microseconds=0),
-    'driver_mode': DRIVER_MODES['UNDETECTED'],
-    'implicitly_wait_mode': IMPLICITLY_WAIT_STATES['RANDOM_FROM_RANGE'],
-    'times': {
-        'implicitly_wait_time': 1.0,
-        'implicitly_wait_time_random_min': 1.0,
-        'implicitly_wait_time_random_max': 10.0,
-    }
-}
+CONFIG = dict(
+    worker_id='worker_id',
+    worker_group='worker_group',
+    no_tasks_time=timedelta(
+        days=0,
+        hours=0,
+        minutes=5,
+        seconds=0,
+        milliseconds=0,
+        microseconds=0
+    ),
+    driver_mode=DRIVER_MODES['UNDETECTED'],
+    implicitly_wait_mode=IMPLICITLY_WAIT_STATES['RANDOM_FROM_RANGE'],
+    times=dict(
+        implicitly_wait_time=1.0,
+        implicitly_wait_time_random_min=1.0,
+        implicitly_wait_time_random_max=10.0,
+    )
+)
+
 
 
 class Worker:
@@ -43,7 +53,8 @@ class Worker:
 
     # TODO: VALIDATE CONFIG ON INIT
     def __init__(self, service, service_user, config=CONFIG) -> None:
-        self.id: str = ''
+        self.id: str = config.get('worker_id')
+        self.group: str = config.get('worker_group')
         self.state: str = WORKER_STATES['STOPPED']
         self.config: dict = config
 
@@ -59,22 +70,31 @@ class Worker:
         self.tasks_process_to_worker_conn: Connection = pipe[1]
         self.process: WorkerProcess = WorkerProcess(
             worker_id=self.id,
+            worker_group=self.group,
             tasks_process_to_worker_conn=self.tasks_process_to_worker_conn,
             tasks_worker_to_process_conn=self.tasks_worker_to_process_conn,
         )
 
-
     @staticmethod
-    def get_driver(driver_mode: str) -> uc.Chrome:
+    def get_driver(driver_mode: str) -> uc.Chrome | webdriver.Chrome:
+        options = webdriver.ChromeOptions
+        options.headless = False
+        options.add_argument("--window-size=1920x1080")
+        options.add_argument("--disable-blink-features=AutomationControlled")
         if driver_mode == DRIVER_MODES['UNDETECTED']:
+            '''
             options = uc.ChromeOptions()
             options.headless = False
             options.add_argument("--window-size=1920x1080")
             options.add_argument("--disable-blink-features=AutomationControlled")
+            '''
             driver = uc.Chrome(options=options)
             driver.implicitly_wait(get_random_time(2, 7))
             return driver
-
+        elif driver_mode == DRIVER_MODES['NORMAL']:
+            driver = webdriver.Chrome(options=options)
+            driver.implicitly_wait(get_random_time(2, 7))
+            return driver
         else:
             raise AttributeError('driver not supported')
 
