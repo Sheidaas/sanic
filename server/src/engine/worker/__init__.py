@@ -3,33 +3,11 @@ from .process import WorkerProcess
 import undetected_chromedriver as uc
 from ..navigator import Navigator
 from ..services import Service
-from datetime import timedelta
 from ...utils import get_random_time
-from ...utils.dictionaries import DRIVER_MODES, WORKER_STATES, IMPLICITLY_WAIT_STATES
+from ...utils.dictionaries import DRIVER_MODES, WORKER_STATES
+from ...utils.worker import CONFIG, check_worker_starting_config_dictionary
 import multiprocessing as mp
 from multiprocessing.connection import Connection
-
-
-CONFIG = dict(
-    worker_id='worker_id',
-    worker_group='worker_group',
-    no_tasks_time=timedelta(
-        days=0,
-        hours=0,
-        minutes=5,
-        seconds=0,
-        milliseconds=0,
-        microseconds=0
-    ),
-    driver_mode=DRIVER_MODES['UNDETECTED'],
-    implicitly_wait_mode=IMPLICITLY_WAIT_STATES['RANDOM_FROM_RANGE'],
-    times=dict(
-        implicitly_wait_time=1.0,
-        implicitly_wait_time_random_min=1.0,
-        implicitly_wait_time_random_max=10.0,
-    )
-)
-
 
 
 class Worker:
@@ -51,8 +29,9 @@ class Worker:
     self.service_user:
     """
 
-    # TODO: VALIDATE CONFIG ON INIT
     def __init__(self, service, service_user, config=CONFIG) -> None:
+        check_worker_starting_config_dictionary(config)
+
         self.id: str = config.get('worker_id')
         self.group: str = config.get('worker_group')
         self.state: str = WORKER_STATES['STOPPED']

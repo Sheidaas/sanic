@@ -1,7 +1,6 @@
 from sanic import Sanic
-from ..database.models.users import User
 from ..database import Database
-from .selenium_session import SeleniumSession
+from .worker import Worker
 
 
 class Engine:
@@ -16,11 +15,10 @@ class Engine:
         self.database: Database = database
         self.run: bool = True
         self.is_running: bool = False
-        self.selenium_sessions: list[SeleniumSession] = []
+        self.workers: list[Worker] = []
 
-    def create_session(self, service, service_user: ServiceUser) -> None:
-        app = Sanic.get_app()
-        database = app.ctx.get('DATABASE')
+    def create_worker(self, service, service_user: ServiceUser) -> None:
+
 
         server = database.travian_server_manager.get_travian_server_by_url(server)
         game_session = None

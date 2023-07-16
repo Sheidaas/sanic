@@ -37,7 +37,8 @@ class WorkerProcess:
             self.tasks.put(task)
 
     def update_task(self, task):
-        self.tasks_process_to_worker_conn.send()
+        return
+        # self.tasks_process_to_worker_conn.send()
 
     def _process_target(self):
         # on_process_start
